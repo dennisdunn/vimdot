@@ -61,3 +61,9 @@ let g:slimv_lisp = '/usr/bin/sbcl'
 
 "let g:slimv_swank_cmd = '! xterm -e /usr/bin/sbcl --load /usr/share/common-lisp/source/slime/start-swank.lisp &'
 
+" Start NERDTree 
+autocmd VimEnter * NERDTree 
+
+" Treat .asd files as .lisp files
+au BufReadPost *.asd set syntax=lisp
+au BufReadPost *.asd set lisp

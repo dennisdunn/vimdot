@@ -1,3 +1,6 @@
 [submodule "plugged/Vundle.vim"]
 	path = plugged/Vundle.vim
 	url = https://github.com/VundleVim/Vundle.vim.git
+[submodule "/home/dennisd/.vim/pack/plugins/start/slimv"]
+	path = /home/dennisd/.vim/pack/plugins/start/slimv
+	url = https://github.com/kovisoft/slimv.git
