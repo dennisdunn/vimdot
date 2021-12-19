@@ -10,12 +10,13 @@ call vundle#begin('~/.vim/plugged')
 " Let Vundle manage Vundle
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'ryanoasis/vim-devicons'
 Plugin 'vim-airline/vim-airline'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'preservim/nerdtree'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'ryanoasis/vim-devicons'
+Plugin 'kovisoft/slimv'
 
 call vundle#end()
 filetype plugin indent on
@@ -43,7 +44,7 @@ set splitbelow         " Always split below
 set mouse=a            " Enable mouse drag on window splits
 
 set background=dark   " dark or light
-colorscheme default " Your favorite color scheme's name
+colorscheme slate " Your favorite color scheme's name
 "let g:airline_theme = 'default'
 
 " NERDTree configuration
